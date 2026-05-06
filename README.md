@@ -1,24 +1,35 @@
-# Breast Cancer Survival Prediction using Machine Learning
+# Breast Cancer Survival Prediction using Data Analytics & Machine Learning
 
 ## Overview
 
-This project applies machine learning techniques to predict:
+This project applies data analytics and machine learning techniques to predict:
 
-1. Breast cancer mortality status (Alive vs Dead)
-2. Patient survival months
+- Breast cancer mortality status (Alive vs Dead)
+- Patient survival duration in months
 
-The project was developed as part of the University of Westminster module:
+The project was developed using clinical healthcare data as part of a machine learning and data mining coursework project.
 
-**5DATA002W.2 – Machine Learning & Data Mining** 
-
-The implementation follows a complete machine learning workflow including:
-- Data preprocessing
+The workflow includes:
+- Data cleaning and preprocessing
+- Exploratory data analysis
 - Feature engineering
 - Classification modelling
 - Hyperparameter tuning
 - Ensemble learning
 - Regression modelling
 - Model evaluation and interpretation
+
+---
+
+# Business Problem
+
+Healthcare professionals require reliable methods to:
+- Identify high-risk breast cancer patients
+- Support treatment planning
+- Estimate survival outcomes
+- Improve healthcare decision-making using data-driven insights
+
+This project demonstrates how predictive analytics and machine learning can assist in analysing patient outcomes using historical healthcare data.
 
 ---
 
@@ -51,29 +62,16 @@ breast-cancer-survival-prediction/
 
 ---
 
-# Objectives
-
-The main objectives of this project are:
-
-- Predict whether a breast cancer patient will survive or not
-- Estimate survival duration in months for terminal patients
-- Compare multiple machine learning algorithms
-- Evaluate classification and regression performance
-- Improve predictive performance using ensemble learning and hyperparameter tuning
-
----
-
 # Dataset
 
 The dataset used in this project was provided as part of university coursework.
 
-According to the coursework specification, the dataset originates from the:
-
+According to the coursework specification, the dataset originates from:
 - SEER Program (Surveillance, Epidemiology, and End Results)
 - National Cancer Institute (NCI)
 
-Reference:
-- https://ieee-dataport.org/open-access/seer-breast-cancer-data
+Dataset reference:
+https://ieee-dataport.org/open-access/seer-breast-cancer-data
 
 The raw dataset is not publicly redistributed in this repository.
 
@@ -105,6 +103,35 @@ The raw dataset is not publicly redistributed in this repository.
 
 ---
 
+# Data Analytics Workflow
+
+## Notebook 1 — Data Preprocessing
+- Dataset exploration
+- Data cleaning
+- Missing value handling
+- Encoding categorical variables
+- Feature selection
+- Data transformation and preparation
+
+## Notebook 2 — Classification Models and Hyperparameter Tuning
+- Logistic Regression modelling
+- Naive Bayes modelling
+- KNN modelling
+- Model comparison
+- Confusion matrices
+- ROC-AUC analysis
+- Hyperparameter tuning using GridSearchCV
+
+## Notebook 3 — Ensemble and Regression Models
+- Voting ensemble classifier
+- Decision Tree regression models
+- Fully grown vs pruned trees
+- Survival month prediction
+- Decision tree visualization
+- Regression model evaluation
+
+---
+
 # Evaluation Metrics
 
 ## Classification Metrics
@@ -121,43 +148,26 @@ The raw dataset is not publicly redistributed in this repository.
 
 ---
 
-# Workflow
-
-## Notebook 1 – Data Preprocessing
-- Dataset exploration
-- Data cleaning
-- Missing value handling
-- Encoding categorical variables
-- Feature preparation
-- Data transformation
-
-## Notebook 2 – Classification Models and Tuning
-- Logistic Regression modelling
-- Naive Bayes modelling
-- KNN modelling
-- Confusion matrices
-- Classification reports
-- ROC-AUC analysis
-- Hyperparameter tuning using GridSearchCV
-
-## Notebook 3 – Ensemble and Regression Models
-- Voting ensemble classifier
-- Decision Tree regression models
-- Fully grown vs pruned trees
-- Survival month prediction
-- Decision tree visualization
-- Regression model evaluation
-
----
-
 # Key Features
 
-- End-to-end machine learning pipeline
+- End-to-end data analytics workflow
 - Healthcare predictive analytics
+- Data preprocessing and feature engineering
 - Classification and regression modelling
 - Ensemble learning implementation
 - Hyperparameter optimization
-- Data visualization and model interpretation
+- Model performance evaluation
+- Data visualization and interpretation
+
+---
+
+# Business Impact
+
+This project demonstrates how predictive analytics can support healthcare professionals in:
+- Identifying high-risk patients
+- Improving treatment prioritisation
+- Supporting clinical decision-making
+- Estimating patient survival outcomes using historical healthcare data
 
 ---
 
@@ -204,9 +214,23 @@ The implementation includes:
 
 ---
 
+# Skills Demonstrated
+
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis
+- Feature Engineering
+- Predictive Analytics
+- Machine Learning
+- Data Visualization
+- Model Evaluation
+- Problem Solving
+- Analytical Thinking
+
+---
+
 # Academic Context
 
-This project was completed for educational and research purposes as part of a university machine learning coursework assignment. 
+This project was completed for educational and research purposes as part of a university machine learning coursework assignment.
 
 ---
 
@@ -219,7 +243,5 @@ This project is licensed under the MIT License.
 # Author
 
 Y.M.Hanwella
-
-```
 
  
