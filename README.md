@@ -9,7 +9,7 @@ This project applies machine learning techniques to predict:
 
 The project was developed as part of the University of Westminster module:
 
-**5DATA002W.2 – Machine Learning & Data Mining** :contentReference[oaicite:0]{index=0}
+**5DATA002W.2 – Machine Learning & Data Mining** 
 
 The implementation follows a complete machine learning workflow including:
 - Data preprocessing
@@ -206,7 +206,7 @@ The implementation includes:
 
 # Academic Context
 
-This project was completed for educational and research purposes as part of a university machine learning coursework assignment. :contentReference[oaicite:1]{index=1}
+This project was completed for educational and research purposes as part of a university machine learning coursework assignment. 
 
 ---
 
