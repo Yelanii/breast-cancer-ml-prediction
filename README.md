@@ -33,35 +33,6 @@ This project demonstrates how predictive analytics and machine learning can assi
 
 ---
 
-# Project Structure
-
-```text
-breast-cancer-survival-prediction/
-│
-├── notebooks/
-│   ├── 01_data_preprocessing.ipynb
-│   ├── 02_classification_models_and_tuning.ipynb
-│   └── 03_ensemble_and_regression_models.ipynb
-│
-├── images/
-│   ├── confusion_matrices/
-│   ├── roc_curves/
-│   └── decision_trees/
-│
-├── report/
-│   └── final_analysis_report.pdf
-│
-├── data/
-│   └── README.md
-│
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── LICENSE
-```
-
----
-
 # Dataset
 
 The dataset used in this project was provided as part of university coursework.
